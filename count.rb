@@ -5,7 +5,7 @@ Bundler.require
 
 puts "PG gem #{PG.version_string}"
 
-
+# add database addresses in psql style
 orange = PG::Connection.new("dbname=")
 green = PG::Connection.new("dbname=")
 
